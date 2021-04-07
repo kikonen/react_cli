@@ -5,4 +5,7 @@ services:
     image: react-cli
     container_name: react-cli
     volumes:
-      - .:/app
+      - react_data:/app
+
+volumes:
+  react_data:
