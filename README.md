@@ -1,9 +1,7 @@
 # USAGE
 
 ```bash
-docker-compose build
-docker-compose up
-docker-compose run web npx create-react-app ui --template typescript
+scriptss/create_app.sh
 ```
 
 # References

@@ -6,6 +6,7 @@ services:
     container_name: react-cli
     volumes:
       - react_data:/app
+    command: ["sleep", "infinity"]
 
 volumes:
   react_data:
